@@ -1,0 +1,89 @@
+body {
+  background-image: url(file:///C:/Users/Kamalpreet%20Singh/Desktop/Images/w6.jpg);
+  background-size: 90%;
+  background-attachment: fixed;
+}
+
+#s2 {
+  color: rgb(33, 16, 185);
+  text-align: justify;
+  text-indent: 100px;
+  line-height: 1.5;
+  border: 15px solid red;
+  border-radius: 12px;
+  padding: 50px;
+  margin: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#s3 {
+  color: rgb(252, 24, 24);
+  line-height: 1.5;
+  border: 15px solid rgb(90, 63, 248);
+  border-radius: 12px;
+  padding: 50px;
+  margin: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#animate1 {
+  border: 5px solid black;
+  border-style: ridge;
+  border-width: 10px 20px;
+  height: 40px;
+  width: 500px;
+  border-radius: 12px;
+  margin-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: lightgrey;
+  color: red;
+  animation: my 1s infinite;
+}
+
+@keyframes my {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
+
+#s1 {
+  color: yellow;
+  border-left: 12px solid red;
+  width: 500px;
+  margin-left: 33%;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(43, 221, 52);
+  animation: my1 1.5s infinite;
+  border-radius: 5px;
+}
+
+@keyframes my1 {
+  from {
+    background-color: rgb(43, 221, 52);
+  }
+  to {
+    background-color: rgb(188, 26, 194);
+  }
+}
+
+#hover1:hover {
+  background-color: blue;
+  width: 60%;
+}
+
+.blockquote-footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
