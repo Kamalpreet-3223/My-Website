@@ -1,5 +1,5 @@
 body {
-  background-image: url(./linked images/w6.jpg);
+  background-image: url("./linked images/w6.jpg");
   background-size: 90%;
   background-attachment: fixed;
 }
